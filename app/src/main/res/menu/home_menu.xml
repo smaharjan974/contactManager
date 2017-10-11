@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="public Account"
+        android:id="@+id/publicacc"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_vertical_align_bottom_black_24dp"
+        />
+
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:visible="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        />
+
+</menu>

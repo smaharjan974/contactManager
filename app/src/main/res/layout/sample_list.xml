@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lst">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@color/colorAccent"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img"
+        android:layout_marginTop="5dp"
+        android:text="Name of Person"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtname"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/img"
+        android:text="9849805388"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtphone"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img"
+        android:layout_below="@+id/txtphone"
+        android:layout_marginTop="7dp"
+        android:text="Location"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/location"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_call_black_24dp"
+        android:layout_toEndOf="@+id/location"
+        android:layout_toRightOf="@+id/location"
+        android:layout_below="@+id/txtphone"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/btncall"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_message_black_24dp"
+        android:layout_toEndOf="@+id/btncall"
+        android:layout_toRightOf="@+id/location"
+        android:layout_below="@+id/txtphone"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/btnmsg"
+        />
+
+
+
+
+</RelativeLayout>

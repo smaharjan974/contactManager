@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/msgfrg"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Body"
+        android:textColor="#fff"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/txtphone"
+        android:background="@drawable/custom_text_box"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Body"
+        android:textColor="#fff"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:id="@+id/txtmsg"
+        android:background="@drawable/custom_text_box"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/btnsend"
+        android:layout_marginTop="8dp"
+        />
+
+
+
+</LinearLayout>
